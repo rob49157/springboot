@@ -6,10 +6,12 @@ public class Person {
 
     private final UUID id;
     private final String name;
+    private final int age;
 
-    public Person(UUID id, String name){
+    public Person(UUID id, String name, int age){
         this.id=id;
         this.name= name;
+        this.age=age;
 
     }
 
@@ -20,6 +22,11 @@ public class Person {
 
     public String getName(){
         return name;
+    }
+
+    public int getage(){
+        return age;
+
     }
 
     
